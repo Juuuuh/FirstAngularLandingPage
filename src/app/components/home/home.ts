@@ -3,11 +3,12 @@ import { Header } from "../header/header";
 import { BtnPrimary } from "../btn-primary/btn-primary";
 import { NewsletterForm } from "../newsletter-form/newsletter-form";
 import { Benefit } from "../benefit/benefit";
+import { Footer } from "../footer/footer";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [Header, BtnPrimary, NewsletterForm, Benefit],
+  imports: [Header, BtnPrimary, NewsletterForm, Benefit, Footer],
   templateUrl: './home.html',
   styleUrls: ['./home.scss'],
 })
